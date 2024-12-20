@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAg3zhs9e1EduP_d3zxT5wYCZUUHp-Askc",
+    apiKey: "google-key",
     authDomain: "carpool-imagestorage.firebaseapp.com",
     projectId: "carpool-imagestorage",
     storageBucket: "carpool-imagestorage.firebasestorage.app", // 올바른 설정
